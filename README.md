@@ -20,8 +20,7 @@ function* fibonacci() {
     fn2 = current + fn1
     yield current
     if (current < 0) {
-        fn1 = 0
-        fn2 = 1
+        return
     }
   }
 }
