@@ -1,6 +1,8 @@
 # Generators-JS
 
-Infinite Generators
+Generators allow functions to handle an infinite series of data!
+
+Example:
 ```
 function generator(func) {
   function* genFunc (iter) {
